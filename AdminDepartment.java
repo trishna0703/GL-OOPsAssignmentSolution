@@ -3,21 +3,15 @@ package company.departments;
 public class AdminDepartment extends SuperDepartment{
 
 	public String departmentName(){
-		String msg = "Welcome to Admin Department";
-		System.out.println(msg);
-		return msg;
+		return "Welcome to Admin Department";
 	}
 	
 	public String getTodaysWork(){
-		String msg = "Complete your documents Submission";
-		System.out.println(msg);
-		return msg;
+		return "Complete your documents Submission";
 	}
 	
 	public String getWorkDeadline(){
-		String msg = "Complete by EOD";
-		System.out.println(msg);
-		return msg;
+		return "Complete by EOD";
 	}
 
 }

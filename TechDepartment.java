@@ -2,26 +2,18 @@ package company.departments;
 
 public class TechDepartment extends SuperDepartment {
 	public String departmentName() {
-		String msg = "Welcome to Tech Department";
-		System.out.println(msg);
-		return msg;
+		return "Welcome to Tech Department";
 	}
 
 	public String getTodaysWork() {
-		String msg = "Complete coding of module 1";
-		System.out.println(msg);
-		return msg;
+		return "Complete coding of module 1";
 	}
 
 	public String getWorkDeadline() {
-		String msg = "Complete by EOD";
-		System.out.println(msg);
-		return msg;
+		return "Complete by EOD";
 	}
 	
 	public String getTechStackInformation() {
-		String msg = "Core Java";
-		System.out.println(msg);
-		return msg;
+		return "Core Java";
 	}
 }
