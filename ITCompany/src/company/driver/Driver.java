@@ -5,10 +5,11 @@ import company.childdepartments.HrDepartment;
 import company.childdepartments.TechDepartment;
 import company.superdepartment.SuperDepartment;
 
+//driver class containing main method
 public class Driver {
 
 	public static void main(String[] args) {
-		
+		//invoking objects of each department
 		SuperDepartment admin = new AdminDepartment();
 		SuperDepartment hr = new HrDepartment();
 		SuperDepartment tech = new TechDepartment();
